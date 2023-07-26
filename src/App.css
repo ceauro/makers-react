@@ -1,0 +1,26 @@
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.table-container {
+  max-width: 600px;
+}
+
+.ui.table {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.ui.table thead {
+  position: sticky;
+  top: 0;
+  background-color: #f4f4f4; /* Set the background color of the sticky header */
+}
+
+button{
+  padding-right: 10px;
+}
